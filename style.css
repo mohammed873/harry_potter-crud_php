@@ -1,0 +1,49 @@
+body{
+   overflow-x: hidden;
+}
+.title{
+    text-align: center;
+    margin-top: 20px;
+}
+.header_pic{
+    width: 100%;
+}
+.header_pic img{
+    width: 100%;
+}
+.navbar{
+    background-color: #000005c7!important;
+    padding: 1%;
+    position: fixed;
+    width: 100%;
+    z-index: 12 !important;
+}
+.form_box{
+    margin: auto ;
+    box-shadow: 0px 0px 7px #d29696b8;
+    padding: 20px
+
+}
+.list_box{
+    margin: auto;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 12px;
+    display: table;
+}
+@media only screen and (max-width:700px){
+    .list_box{
+        font-size: 9px;
+    }
+}
+.container{
+    background-color: darkred;
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px;
+}
+.footer{
+    background-color: black;
+    padding: 1px;
+    color: aliceblue;
+    text-align: center;
+}
+
